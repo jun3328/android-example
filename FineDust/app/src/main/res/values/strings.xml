@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FineDust</string>
+    <string name="title_activity_dust">DustActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">미세먼지</string>
+    <string name="nav_header_subtitle">지역별 미세먼지</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">홈</string>
+    <string name="menu_weather">날씨</string>
+    <string name="menu_slideshow">슬라이드</string>
+    <string name="menu_tools">설정</string>
+</resources>
