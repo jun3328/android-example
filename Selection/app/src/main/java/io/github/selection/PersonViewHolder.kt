@@ -11,16 +11,9 @@ class PersonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     private val ageView = itemView.findViewById<TextView>(R.id.personAge)
 
-    fun bind(person: Person) {
+    fun bind(person: Person, isSelected: Boolean) {
         nameView.text = person.name
         ageView.text = person.age.toString()
-    }
-
-    fun setState(isSelected: Boolean) {
-        if (isSelected) {
-            itemView.setBackgroundResource(R.color.colorPrimary)
-        } else {
-            itemView.setBackgroundResource(android.R.color.white)
-        }
+        itemView.isActivated = isSelected
     }
 }
